@@ -13,5 +13,5 @@ spring:
     username: guest
     password: guest
 server:
-  port: 8080
+  port: 8087
   #context-path: /marketing
