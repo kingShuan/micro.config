@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: marketing
+  datasource:
+    name: hbdbdevl
+    url: jdbc:oracle:thin:@192.168.13.5:6006/hbdbdevl
+    username: hbbldevl
+    password: hbbldevl
+  redis:
+    host: redis-server
+  rabbitmq:
+    addresses: rabbitmq-server
+    username: guest
+    password: guest
+server:
+  port: 8087
+  #context-path: /marketing
